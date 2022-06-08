@@ -1,0 +1,899 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Jura';
+}
+.container{
+    width: 1240px;
+    margin: 0 auto;
+
+    header{
+        width: 100%;
+        display: grid;
+        grid-template-columns: 570px 535px;
+        gap: 50px;
+        margin-bottom: 140px;
+
+        .header-info{
+
+            .header-links{
+                display: grid;
+                grid-template-columns: 85px 255px;
+                gap: 130px;
+                align-items: center;
+                justify-content: center;
+                margin-top: 35px;
+                margin-bottom: 80px;
+
+                .links{
+                    display: grid;
+                    grid-template-columns: 50px 75px 60px;
+                    gap: 40px;
+                    
+                    a{
+                        text-decoration: none;
+                        color: #006AA7;
+                        font-weight: 700;
+                        font-size: 12px;
+                        line-height: 14px;
+                    }
+                    a:hover{
+                        text-decoration: underline;
+                    }
+                }
+            }
+            .header-description{
+                margin-left: 40px;
+
+                h1{
+                    font-weight: 700;
+                    font-size: 100px;
+                    line-height: 118px;
+                }
+                h2{
+                    font-weight: 700;
+                    font-size: 50px;
+                    line-height: 59px;
+                }
+                p{
+                    font-weight: 400;
+                    font-size: 16px;
+                    line-height: 19px;
+                }
+                .link-button{
+                    width: 250px;
+                    height: 50px;
+                    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+                    display: grid;
+                    justify-content: center;
+                    align-items: center;
+                    margin-top: 50px;
+                    background: #006AA7;
+
+                    a{
+                        font-weight: 700;
+                        font-size: 16px;
+                        line-height: 19px;
+                        text-decoration: none;
+                        color: #FFFFFF;
+                    }
+                }
+                .link-button:hover{
+                    background: #024D79;
+                }
+            }
+        }
+    }
+    .past{
+        width: 100%;
+        display: grid;
+        justify-items: center;
+        margin-bottom: 115px;
+
+        .past-title{
+            font-weight: 600;
+            font-size: 16px;
+            line-height: 19px;
+        }
+        .past-subtitle{
+            font-weight: 600;
+            font-size: 24px;
+            line-height: 28px;
+            margin-bottom: 40px;
+        }
+        .formation{
+            display: grid;
+            grid-template-columns: repeat(4, 260px);
+            gap: 20px;
+            margin-bottom: 80px;
+
+            .block:hover{
+                background: #006AA7;
+                color: white;
+            }
+            .block{
+                height: 250px;
+                
+                .block-info{
+                    margin-left: 15px;
+                    margin-top: 20px;
+
+                    h2{
+                        font-weight: 600;
+                        font-size: 16px;
+                        line-height: 19px;
+                        margin-bottom: 15px;
+                        margin-top: 10px;
+                    }
+                    p{
+                        font-weight: 400;
+                        font-size: 16px;
+                        line-height: 19px;
+                        width: 230px;
+                        margin-bottom: 30px;
+                    }
+                }
+                .arrow-block{
+                    display: grid;
+                    grid-template-columns: 70px 40px;
+                    gap: 15px;
+                    align-items: center;
+                    justify-content: end;
+                    margin-right: 10px;
+
+                    a{
+                        text-decoration: none;
+                        color: inherit;
+                        font-weight: 400;
+                        font-size: 16px;
+                        line-height: 19px;
+                    }
+                }
+            }
+        }
+        .kozak-title{
+            font-weight: 600;
+            font-size: 19px;
+            line-height: 22px;
+            margin-bottom: 20px;
+        }
+        .kozak-block{
+            margin-bottom: 50px;
+
+            .blocks-container{
+                display: grid;
+                grid-template-columns: 530px 270px 270px;
+                gap: 15px;
+
+                .first-block{
+                    background: #006AA7;
+                    color: white;
+                    display: grid;
+                    grid-template-columns: 370px 100px;
+                    gap: 8px;
+
+                    .kozak-text{
+                        margin-left: 30px;
+                        margin-top: 30px;
+
+                        h1{
+                            font-weight: 700;
+                            font-size: 25px;
+                            line-height: 30px;
+                            margin-bottom: 15px;
+                        }
+                        p{
+                            font-weight: 700;
+                            font-size: 16px;
+                            line-height: 19px;
+                        }
+                    }
+                    img{
+                        margin-top: 30px;
+                    }
+                }
+                .second-block{
+                    background: #F5F5F5;
+                    border: 1px solid #808080;
+
+                    h1{
+                        margin-top: 8px;
+                        margin-left: 10px;
+                        font-weight: 700;
+                        font-size: 16px;
+                        line-height: 19px;
+                    }
+                    p{
+                        margin-top: 5px;
+                        margin-left: 10px;
+                        font-weight: 400;
+                        font-size: 16px;
+                        line-height: 19px;
+                    }
+                }
+                .third-block{
+                    background: #F5F5F5;
+                    border: 1px solid #808080;
+
+                    h1{
+                        margin-top: 8px;
+                        margin-left: 10px;
+                        font-weight: 700;
+                        font-size: 16px;
+                        line-height: 19px;
+                    }
+                    p{
+                        margin-top: 5px;
+                        margin-left: 10px;
+                        font-weight: 400;
+                        font-size: 16px;
+                        line-height: 19px;
+                    }
+                }
+                .link-button{
+                    width: 200px;
+                    height: 50px;
+                    background: #F9C00D;
+                    border: 1px solid #000000;
+                    border-radius: 10px;
+                    display: grid;
+                    justify-content: center;
+                    align-items: center;
+    
+                    a{
+                        text-decoration: none;
+                        font-weight: 600;
+                        font-size: 16px;
+                        line-height: 19px;
+                        color: #000000;
+                    }
+                }
+                .link-button:hover{
+                    background: #BD930A;
+                }
+                div{
+                    border-radius: 5px;
+                    height: 180px;
+                }
+            }
+        }
+        .sky{
+            width: 100%;
+            height: 450px;
+            background: #F9C00D;
+
+            h1{
+                display: grid;
+                justify-content: center;
+                margin-top: 30px;
+                margin-bottom: 30px;
+                font-weight: 600;
+                font-size: 19px;
+                line-height: 22px;
+            }
+            .main-block{
+                display: grid;
+                grid-template-columns: 700px 450px;
+                margin-left: 30px;
+                gap: 35px;
+
+                .text-block{
+
+                    p{
+                        margin-bottom: 25px;
+                        font-weight: 600;
+                        font-size: 20px;
+                        line-height: 24px;
+                    }
+                }
+            }
+            .link-button{
+                width: 200px;
+                height: 50px;
+                background: #F9C00D;
+                border: 1px solid #000000;
+                border-radius: 10px;
+                margin-left: 35px;
+                display: grid;
+                justify-content: center;
+                align-items: center;
+
+                a{
+                    text-decoration: none;
+                    font-weight: 600;
+                    font-size: 16px;
+                    line-height: 19px;
+                    color: #000000;
+                }
+            }
+            .link-button:hover{
+                background: #BD930A;
+            }
+        }
+    }
+    .today{
+        width: 100%;
+        display: grid;
+        justify-items: center;
+        margin-bottom: 100px;
+
+        .subtitle{
+            font-weight: 600;
+            font-size: 24px;
+            line-height: 28px;
+            margin-bottom: 10px;
+        }
+        h1{
+            font-weight: 600;
+            font-size: 16px;
+            line-height: 19px;
+        }
+        .who-we-are{
+            display: grid;
+            grid-template-columns: repeat(4, 265px);
+            gap: 20px;
+            margin-bottom: 40px;
+
+            div{
+                height: 150px;
+                border: 1px solid #000000;
+                border-radius: 5px;
+
+                p{
+                    width: 250px;
+                    margin-top: 10px;
+                    margin-left: 10px;
+                    font-weight: 600;
+                    font-size: 16px;
+                    line-height: 19px;
+                }
+            }
+        }
+        .gallery{
+            margin-bottom: 40px;
+            
+            h1{
+                font-weight: 700;
+                font-size: 19px;
+                line-height: 22px; 
+                margin-bottom: 10px;              
+            }
+            .image-gallery{
+                display: grid;
+                grid-template-columns: repeat(5, 200px);
+                gap: 20px;
+                justify-content: center;
+            }
+        }
+        .mriya{
+            width: 800px;
+            height: 250px;
+            background: #006AA7;
+            border-radius: 5px;
+            display: grid;
+            grid-template-columns: 475px 200px;
+            justify-content: center;
+            align-items: center;
+            gap: 30px;
+            margin-bottom: 55px;
+
+            p{
+                font-weight: 700;
+                font-size: 30px;
+                line-height: 35px;
+                color: white;
+            }
+            img{
+                border-radius: 100%;
+            }
+        }
+        .second-title{
+            font-weight: 700;
+            font-size: 19px;
+            line-height: 22px;
+        }
+        .second-subtitle{
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 19px;
+            margin-bottom: 15px;
+        }
+        .achievements{
+            display: grid;
+            grid-template-columns: repeat(3, 350px);
+            gap: 10px;
+
+            div{
+                background: #F9C00D;
+                border-radius: 5px;
+                height: 120px;
+                display: grid;
+                align-items: center;
+                grid-template-columns: 100px 230px;
+                gap: 10px;
+
+                img{
+                    margin-left: 5px;
+                }
+                p{
+                    font-weight: 500;
+                    font-size: 14px;
+                    line-height: 17px;
+                }
+            }
+        }
+    }
+    .future{
+        width: 100%;
+        display: grid;
+        justify-items: center;
+        margin-bottom: 105px;
+
+        .future-title{
+            margin-bottom: 5px;
+            font-weight: 600;
+            font-size: 16px;
+            line-height: 19px;
+        }
+        .future-subtitle{
+            font-weight: 600;
+            font-size: 24px;
+            line-height: 28px;
+            margin-bottom: 30px;            
+        }
+        .ukraine-in-future{
+            margin-bottom: 60px;
+
+            .first-row{
+                display: grid;
+                grid-template-columns: repeat(3, 340px);
+                gap: 30px;
+                margin-bottom: 30px;
+
+                div{
+                    height: 230px;
+                    background: #FFFFFF;
+
+                    img{
+                        margin-left: 15px;
+                        margin-top: 15px;
+                        margin-bottom: 15px;
+                    }
+                    p{
+                        font-weight: 500;
+                        font-size: 16px;
+                        line-height: 19px;
+                        margin-left: 15px;
+                    }
+                }
+                div:hover{
+                    color: white;
+                    background: #006AA7;
+                }
+            }
+            .second-row{
+                display: grid;
+                grid-template-columns: repeat(2, 520px);
+                gap: 40px;
+
+                div{
+                    height: 200px;
+                    background: #FFFFFF;
+
+                    img{
+                        margin-left: 15px;
+                        margin-top: 15px;
+                        margin-bottom: 15px;
+                    }
+                    p{
+                        font-weight: 500;
+                        font-size: 16px;
+                        line-height: 19px;
+                        margin-left: 15px;
+                    }
+                }
+                div:hover{
+                    color: white;
+                    background: #006AA7;
+                }
+            }
+        }
+        .gallery{
+            display: grid;
+            justify-items: center;
+            margin-bottom: 70px;
+
+            h1{
+                font-weight: 500;
+                font-size: 19px;
+                line-height: 22px;
+                margin-bottom: 25px;
+            }
+            .image-gallery{
+                display: grid;
+                grid-template-columns: repeat(4, 250px);
+                gap: 25px;
+            }
+        }
+        .famous-ukrainians{
+            display: grid;
+            justify-items: center;
+
+            h1{
+                margin-bottom: 15px;
+            }
+            .div-container{
+                display: grid;
+                grid-template-columns: repeat(2, 525px);
+                gap: 70px;
+
+                div{
+                    display: grid;
+                    grid-template-columns: 100px 375px;
+                    gap: 15px;
+                    align-items: center;
+                    justify-content: center;
+                    height: 150px;
+
+                    p{
+                        font-weight: 700;
+                        font-size: 16px;
+                        line-height: 19px;
+
+                        span{
+                            font-weight: 400;
+                            font-size: 16px;
+                            line-height: 19px;
+                        }
+                    }
+                }
+            }
+            img{
+                border-radius: 100%;
+            }
+        }
+    }
+    footer{
+        width: 100%;
+        display: grid;
+        background: #006AA7;
+        grid-template-columns: 200px 60px;
+        gap: 15px;
+        height: 100px;
+        align-items: center;
+        justify-content: center;
+
+        p{
+            color: white;
+            font-weight: 700;
+            font-size: 19px;
+            line-height: 22px;
+        }
+    }
+}
+@media (min-width:481px) and (max-width:768px){
+    .container{
+        width: 100%;
+
+        header{
+            grid-template-columns: auto;
+
+            .header-info{
+
+                .header-links{
+                    margin-left: 40px;
+                    justify-content: start;
+                }
+            }
+            img{
+                margin: 0 auto;
+            }
+        }
+        .past{
+
+            .formation{
+                grid-template-columns: auto auto;
+
+                .block:hover{
+                    background: #006AA7;
+                    color: white;
+                }
+            }
+            .kozak-block{
+
+                .blocks-container{
+                    grid-template-columns: auto auto;
+
+                    img{
+                        display: grid;
+                        
+                    }
+                    .first-block{
+                        grid-column: 1/3;
+                        justify-content: center;
+                    }
+                }
+            }
+            .sky{
+                height: auto;
+
+                .main-block{
+                    grid-template-columns: auto;
+                    justify-content: center;
+
+                    img{
+                        margin: 0 auto;
+                    }
+                }
+                .link-button{
+                    margin: 0 auto;
+                    margin-top: 50px;
+                    margin-bottom: 20px;
+                }
+            }
+        }
+        .today{
+
+            .who-we-are{
+                grid-template-columns: auto auto;
+            }
+            .gallery{
+
+                .image-gallery{
+                    grid-template-columns: auto;
+                }
+            }
+            .mriya{
+                width: 100%;
+                grid-template-columns: auto auto;
+
+                p{
+                    margin-left: 10px;
+                }
+                img{
+                    margin-right: 10px;
+                }
+            }
+            .achievements{
+                grid-template-columns: auto auto;
+            }
+        }
+        .future{
+
+            .ukraine-in-future{
+                display: grid;
+                justify-items: center;
+
+                .first-row{
+                    grid-template-columns: auto;
+
+                    div{
+                        display: grid;
+                        width: 340px;
+                        justify-items: center;
+                    }
+                    div:hover{
+                        color: white;
+                        background: #006AA7;
+                    }
+                }
+                .second-row{
+                    grid-template-columns: auto;
+
+                    div{
+                        display: grid;
+                        width: 520px;
+                        justify-items: center;
+                    }
+                    div:hover{
+                        color: white;
+                        background: #006AA7;
+                    }
+                }
+            }
+            .gallery{
+
+                .image-gallery{
+                    grid-template-columns: auto;
+                }
+            }
+            .famous-ukrainians{
+                margin-left: 10px;
+
+                .div-container{
+                    grid-template-columns: auto auto;
+
+                    div{
+                        grid-template-columns: auto auto;  
+                    }
+                }
+            }
+        }
+    }
+}
+@media (max-width:480px){
+    .container{
+        width: 100%;
+
+        header{
+            width: 100%;
+            grid-template-columns: auto;
+
+            .header-info{
+
+                .header-links{
+                    margin: 0 auto;
+                    margin-bottom: 80px;
+                    margin-top: 35px;
+                    justify-content: center;
+                    grid-template-columns: auto;
+                    gap: 20px;
+
+                    .links{
+
+                        a{
+                            font-size: 15px;
+                        }
+                    }
+                    img{
+                        margin: 0 auto;
+                    }
+                }
+                .header-description{
+                    margin-left: 10px;
+                }
+            }
+            .main-photo{
+                width: 100%;
+            }
+        }
+        .past{
+
+            .formation{
+                grid-template-columns: auto;
+
+                .block:hover{
+                    background: #006AA7;
+                    color: white;
+                }
+            }
+            .kozak-block{
+                width: 100%;
+
+                .blocks-container{
+                    grid-template-columns: auto;
+
+                    .first-block{
+                        grid-template-columns: auto;
+                        height: auto;
+
+                        img{
+                            margin: 0 auto;
+                        }
+                    }
+                    .link-button{
+                        margin: 0 auto;
+                    }
+                }
+            }
+            .kozak-title{
+                text-align: center;
+            }
+            .past-subtitle{
+                text-align: center;
+            }
+            .sky{
+                height: auto;
+                width: 100%;
+
+                .main-block{
+                    grid-template-columns: auto;
+                    margin-left: 0;
+
+                    img{
+                        width: 100%;
+                        margin: 0 auto;
+                    }
+                    .text-block{
+                        margin-left: 20px;
+                    }
+                }
+                .link-button{
+                    margin: 0 auto;
+                    margin-top: 50px;
+                    margin-bottom: 20px;
+                }
+            }
+        }
+        .today{
+
+            .who-we-are{
+                grid-template-columns: auto;
+            }
+            .gallery{
+
+                .image-gallery{
+                    grid-template-columns: auto;
+                }
+                h1{
+                    text-align: center;
+                }
+            }
+            .mriya{
+                width: 100%;
+                height: auto;
+                grid-template-columns: auto;
+
+                p{
+                    text-align: center;
+                }
+                img{
+                    margin: 0 auto;
+                }
+            }
+            .achievements{
+                grid-template-columns: auto;
+            }
+            .second-subtitle{
+                text-align: center;
+            }
+        }
+        .future{
+
+            .ukraine-in-future{
+                display: grid;
+
+                .first-row{
+                    grid-template-columns: auto;
+
+                    div{
+                        display: grid;
+                        width: 100%;
+                        justify-items: center;
+                    }
+                    div:hover{
+                        color: white;
+                        background: #006AA7;
+                    }
+                }
+                .second-row{
+                    grid-template-columns: auto;
+
+                    div{
+                        display: grid;
+                        width: 100%;
+                        justify-items: center;
+                    }
+                    div:hover{
+                        color: white;
+                        background: #006AA7;
+                    }
+                }
+            }
+            .gallery{
+
+                .image-gallery{
+                    grid-template-columns: auto;
+                }
+                h1{
+                    text-align: center;
+                }
+            }
+            .famous-ukrainians{
+                margin-left: 10px;
+
+                .div-container{
+                    grid-template-columns: auto;
+
+                    div{
+                        grid-template-columns: auto;
+
+                        img{
+                            margin: 0 auto;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
